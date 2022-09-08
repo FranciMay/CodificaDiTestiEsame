@@ -1,0 +1,551 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+*{
+    box-sizing: border-box;
+}
+map{
+    width: 500px;
+    position: absolute;
+    height: 795px;
+    display: block;
+}
+p{
+    font-size:1.2em;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.6; 
+    font-size: 1.2rem; 
+    font-family: 'Source Sans Pro', sans-serif;; 
+    background-color:  rgba(232,250,255, 0.2);
+}
+h1, h2, h3{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.no_boldi{
+    display: inline;
+    width: fit-content;
+}
+.h2_gloss{
+    font-size: larger;
+    width: fit-content;
+    display: contents;
+}
+.gloss_title{
+    text-align: center;
+}
+.hr_body{
+    margin-top:3%;
+    width: 60%;
+    height: 3px;
+    background-color: rgb(184, 184, 184);
+    border-style: none;
+}
+.hr_body_2{
+    margin-top:3%;
+    width: 50%;
+    height: 3px;
+    background-color: rgb(184, 184, 184);
+    border-style: none;
+}
+.hr_body_3{
+    margin:3% auto 3% auto;
+    width: 25%;
+    height: 3px;
+    background-color: rgb(184, 184, 184);
+    border-style: none;
+}
+
+/* Header */
+.container_traduzione{
+    display: block;
+    
+}
+#header{
+    background-color: #FCFCFD;
+    box-shadow: 5px 5px 10px 0px #B5B5B5;
+    z-index: 1;
+}
+#header, #scroll_top{
+    position: fixed;
+    width: 100%;
+    align-items: center;
+}
+.navbar, #bibliografia ul{
+    width: fit-content;
+    margin: auto;
+    list-style-type: none; 
+    padding: 0;
+}
+.navbar li{
+    display:inline-block;
+}
+.navbar li a{
+    display: block;
+    margin: 15px;
+    padding: 5px;
+    text-decoration: none; 
+    color: #000;
+}
+.navbar li a:hover{
+    box-shadow: 0px 0px 10px 0px #B5B5B5;
+    border-radius: 100px;
+    background-color: #F2F3FF;
+}
+#menu{
+    color: #000; 
+    display: none; 
+    margin: 5px auto 5px auto; 
+    cursor: pointer;
+
+}
+#menu:hover{
+    box-shadow: 0px 0px 10px 0px #B5B5B5;
+    border-radius: 10px;
+    background-color: #F2F3FF;
+}
+
+/* Informazioni  titolo */
+#title{
+    text-align: center; 
+    padding-top: 80px;
+}
+
+/* Descrizione */
+.align_center{
+    height: fit-content;
+    align-items: center;
+}
+.pagina{
+    width:30%;
+}
+.flexone{
+    display: flex;
+    justify-content: space-between;
+
+}
+.container_50{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 50em;
+}
+.propic{
+    border-radius: 50%;
+    margin-top: 3%;
+    box-shadow: 0px 0px 15px 0px #000;
+    border:solid 1px #fff;
+}
+.informazioni{
+    width: 100%; 
+    display: block; 
+    align-items: center; 
+}
+#trad{
+    width: 5%;
+}
+.menurizz{
+    width: 3em;
+}
+#trad_2{
+    width: 5%;
+}
+#traduzione_JS{
+    display: none;
+}
+#traduzione_JS_2{
+    display: none;
+}
+.box_body{
+    text-align: center;
+    width: 50%;    
+    margin:auto;
+}
+.box_body h3{
+    text-align: left;
+    width: fit-content;
+}
+.box_body p{
+    text-align: center;
+}
+.box_body h2{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FCFCFD; 
+    color: #000; 
+    border-radius: 10px;
+    border: solid 1px #D6D6E7;
+}
+
+/* Slide */
+#sec_hidden{
+    display: none;
+}
+.sec_hidden{
+    display: none;
+}
+#slide{
+    width: 80%;
+    margin: 25px auto;
+}
+.button_img{
+    width:25px;
+    float:right;
+    padding-left: 5px;
+    margin: unset;
+}
+#box_bottoni{
+    margin: auto;
+    display: flex;
+    width: 70%;
+    border-radius: 100px;
+    justify-content:space-around;
+    align-items: center;
+}
+.no_weight{
+    font-weight: normal;
+    display: inline;
+}
+.foto{
+    width: 500px;
+    height:795px;
+    display: none; 
+    margin: 0 auto; 
+    text-align: center;
+}
+.show{
+    display: block;
+    z-index: -1;
+}
+#indietro, #avanti{
+    width: 5%;
+    border-radius: 1000px;
+    box-shadow: 0px 0px 10px 0px rgb(214, 214, 214);
+}
+#indietro{
+    left:0;
+}
+#avanti{
+    right:0;
+}
+#avanti:hover, #indietro:hover{
+    box-shadow: 0px 2px 15px 0px rgb(146, 146, 146);
+    border-radius: 1000px;
+    color: #000;
+}
+#testo_foto{
+    display:block; 
+    position: absolute;
+    text-align: center;
+}
+
+/* Lista bottoni */
+.button_text{
+    align-items: center;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.lista_bottoni{
+    display: flex; 
+    justify-content: center;
+}
+.lista_bottoni button{
+    box-shadow: 0px 2px 5px 0px rgb(146, 146, 146);
+    width:150px;
+    margin: 15px; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 100px; 
+    display: inline-block;
+    align-items: center;
+    background-color: #FCFCFD;
+    color: #000;
+}
+.lista_bottoni button:hover{
+    opacity: 1;
+}
+#cancella:hover{
+    border-color: grey;
+}
+#correzioni:hover{
+    border-color:red;
+}
+#terminologia:hover{
+    border-color: #ffff00;
+}
+#glottonimi:hover{
+    border-color: plum
+}
+#toponimi:hover{
+    border-color: orange;
+}
+.red, .inline_block{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.orange{
+    background-color: orange;
+}
+
+/* Pagine 4&5 */
+#pagine4_5{
+    margin-top: 100px;
+}
+.pagina h2{
+    text-align: center;
+}
+.testo_pagina{
+    width: 80%; 
+    margin: auto; 
+    display: flex; 
+    justify-content: space-between;
+}
+.testo{
+    max-width: 100%; 
+}
+.testo b{
+    margin-right: 5px;
+}
+.abbr, .expan, span, u{
+    margin-left: 5px; 
+    margin-right: 5px;
+}
+.expan, .none, .del, .add{
+    display: none;
+}
+.line_through, .inline_block, footer h3, footer p{
+    display: inline-block;
+    margin: 3px;
+}
+footer h2{
+    margin-top: 5px;
+}
+.del{
+    text-decoration: line-through;
+}
+.paragrafo{
+    display:block;
+    text-align: center;
+    background-color: #FCFCFD; 
+    box-shadow: 0px 0px 5px 0px #B5B5B5;
+    color: #000; 
+    margin-top: 25px; 
+    padding: 5px; 
+    border-radius: 100px;
+}
+.terms{
+    text-decoration: none; 
+    color: inherit;
+}
+
+/* Glossario */
+#glossario{
+    margin: auto; 
+    padding: 15px; 
+    width: 80%;
+}
+.label{
+    width:60%;
+    margin:auto;
+}
+
+/* Scroll top */
+#top{
+    text-decoration: none; 
+    color: #000; 
+    margin: 15px;
+}
+
+/* Footer */
+footer{
+    margin-top: 100px; 
+    box-shadow: 0px 0px 10px 0px #B5B5B5;
+    background-color: #FCFCFD;
+    color: #000;
+    padding: 15px;
+}
+
+/* slideshow*/
+
+* {box-sizing:border-box}
+
+/* Galleria immagini */
+.slideshow-container {
+    width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+/* Nascondi immagini */
+.mySlides {
+  display: none;
+}
+
+/* Bottoni avanti e dietro */
+.prev, .next {
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Posizionamento bottone next */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Effetto bottone su hover */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Responsive */
+@media screen and (max-width: 1185px){
+    #menu{
+        height: 3em;
+
+    }
+    .label{
+        width:85%;
+    }
+
+    /* Header */
+    .container_50{
+        display: block;
+        height: fit-content;
+    }
+    .foto{
+        width:300px;
+        height:477px;
+    }
+    .pagina{
+        margin: auto;
+        width: 70%;
+    }
+    #header{
+        flex-wrap: wrap;
+    }
+    .navbar{
+        width: 100%; 
+        display: none;
+    }
+    .navbar li{
+        display: block; 
+        width: 100%;
+    }
+    .navbar li a{
+        text-align: center;
+    }
+    footer h3, footer p, #menu{
+        display: block;
+    }
+
+    .block {
+        display: block;
+        height: fit-content;
+    }
+
+    /* Informazioni titolo */
+    #title, #bibliografia{
+        text-align: initial;
+    }
+
+    /* Caratteristiche */
+    .informazioni, .lista_bottoni{
+        flex-wrap: wrap;
+    }
+    .informazioni div, .informazioni div{
+        width: 100%;
+    }
+    #order_2{
+        order: 2;
+    }
+    #order_1{
+        order: 1;
+    }
+    .lista_bottoni button{
+        display: block; 
+        width: 100%;
+    }
+    .testo_pagina{
+        padding: 0; 
+        width: 100%; 
+        flex-wrap: wrap;
+    }
+    .testo{
+        max-width: 100%;
+    }
+
+    /* Glossario */
+    #glossario{
+        width: 100%;
+    }
+}

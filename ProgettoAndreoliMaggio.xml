@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+        <!-- file info -->
+            <titleStmt>
+                <title xml:lang="fr">Trois premières conférences à l'Université</title>
+                <title xml:lang="it">Le prime tre conferenze all'Università</title>
+                <author xml:lang="fr" ref="#FDS">Ferdinand De Saussure</author>
+            </titleStmt>
+            <editionStmt>
+                <edition n="DigitalEdition">
+                    Edizione digitale <date when="2022-09">Settembre 2022</date>
+                </edition>
+                <respStmt>
+                    <resp>Professore coordinatore del progetto:</resp>
+                    <persName>
+                        <forename>Angelo</forename>
+                        <forename>Mario</forename>
+                        <surname>Del Grosso</surname>
+                    </persName>
+                </respStmt>
+                <respStmt xml:id="Andreoli-Maggio">
+                    <resp>Studenti responsabili della codifica:</resp>
+                    <persName ref="#MA">Michele Andreoli - </persName>
+                    <persName ref="#FM">Francesco Maggio</persName>
+                </respStmt>
+                <respStmt xml:id="Bouq-Engl">
+                    <resp>Trascrizione a cura di:</resp>
+                    <persName ref="#SB">Simon Bouquet - </persName>
+                    <persName ref="#RE">Rudolf Engler</persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Traduttore:</resp>
+                    <persName ref="#EF">Emanuele Fadda</persName>
+                </respStmt>
+            </editionStmt>
+
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date when="2022-09">Settembre 2022</date>
+                <availability status="free">
+                    <p>No rights content</p>
+                </availability>
+                <pubPlace>Pisa</pubPlace>
+            </publicationStmt>
+
+            <!-- Fonte primaria -->
+            <sourceDesc>
+                <!-- Descrizione manoscritto -->
+                <msDesc>
+                    <!-- Identificazione manoscritto -->
+                    <msIdentifier>
+                        <country>Svizzera</country>
+                        <settlement>Ginevra</settlement>
+                        <repository role="library" ref="http://institutions.ville-geneve.ch/fr/bge/">Biblioteca di Ginevra</repository>
+                        <collection>Archivi Ferdinand de Saussure</collection>
+                        <idno type="inventory">BGE Ms.fr.3951/1.1-3</idno>
+                    </msIdentifier>
+
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="fr" ref="#FDS">Ferdinand de Saussure</author>
+                            <title xml:lang="fr" type="main">Trois premières conférences à l'Université</title>
+                            <title xml:lang="fr" type="sub">(cours d'ouverture - <date when="1891-11">nov. 1891</date>)</title>
+                        </msItem>
+                    </msContents>
+                    <!-- Supporto fisico -->
+                    <physDesc>
+                        <objectDesc form="foglio">
+                            <supportDesc material="paper">
+                                <support>
+                                    <p>Carta</p>
+                                </support>
+                                <extent>
+                                    <measure unit="pages" quantity="67">
+                                        67 pagine + 1 foglio aggiuntivo.
+                                    </measure>
+                                </extent>
+                                <condition>Le pagine si dimostrano datate ma comunque perfettamente consultabili, dal momento che i danni riportati non sono influenti per il fine della lettura. Lo stato di conservazione è generalmente buono.</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        
+                        <handDesc hands="1">
+                            <p>Il testo è stato scritto a mano solo dal suo autore.</p>
+                        </handDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin notAfter="1891-11">
+                            <p>
+                                Appunti di Ferdinand de Saussure, scritti originariamente per alcune conferenze dell'Università di 
+                                <placeName ref="#GE">Ginevra</placeName>. Sono stati poi utilizzati nel <date when="1891-11">novembre 1891</date> 
+                                per le prime lezioni del corso di <foreign xml:lang="fr">Phonétique du grec et du latin</foreign>. Sono poi giunte a noi in buone condizioni.
+                            </p>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <profileDesc>
+            <!-- Aspetti non bibliografici -->
+            <langUsage>
+                <language ident="fr">Francese</language>
+            </langUsage>
+            <creation>
+                <date when="1891-11">Novembre 1891</date>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <!-- Prolusioni 3 - Pagina 21 -->
+        <surface xml:id="Full_PAG21_MAP">
+            <graphic url='ms_fr_03951_01_3_f021.jpg' width='6048px' height='4032px' />
+            <zone ulx="2062" uly="211" lrx="4362" lry="3844" xml:id="Full_PAG21" />
+            <zone ulx="2218" uly="292" lrx="2600" lry="567" xml:id="PAG21_NUM_CAR"/>
+            <zone ulx="2063" uly="211" lrx="4363" lry="3845" xml:id="PAG21_R1"/>
+            <zone ulx="2605" uly="316" lrx="4228" lry="467" xml:id="PAG21_R2"/>
+            <zone ulx="2604" uly="467" lrx="4227" lry="601" xml:id="PAG21_R3"/>
+            <zone ulx="2604" uly="602" lrx="4264" lry="688" xml:id="PAG21_R4"/>
+            <zone ulx="2604" uly="702" lrx="4257" lry="838" xml:id="PAG21_R5"/>
+            <zone ulx="2606" uly="839" lrx="4257" lry="982" xml:id="PAG21_R6"/>
+            <zone ulx="2608" uly="982" lrx="4266" lry="1067" xml:id="PAG21_R7"/>
+            <zone ulx="2608" uly="1067" lrx="4266" lry="1205" xml:id="PAG21_R8"/>
+            <zone ulx="2608" uly="1207" lrx="3593" lry="1305" xml:id="PAG21_R9"/>
+            <zone ulx="2612" uly="1298" lrx="4226" lry="1466" xml:id="PAG21_R10"/>
+            <zone ulx="2604" uly="1472" lrx="4269" lry="1563" xml:id="PAG21_R11"/>
+            <zone ulx="2587" uly="1564" lrx="4268" lry="1714" xml:id="PAG21_R12"/>
+            <zone ulx="2587" uly="1716" lrx="4262" lry="1822" xml:id="PAG21_R13"/>
+            <zone ulx="2597" uly="1822" lrx="4268" lry="1971" xml:id="PAG21_R14"/>
+            <zone ulx="2599" uly="1974" lrx="4270" lry="2082" xml:id="PAG21_R15"/>
+            <zone ulx="2603" uly="2080" lrx="4270" lry="2275" xml:id="PAG21_R16"/>
+            <zone ulx="2599" uly="2189" lrx="4271" lry="2375" xml:id="PAG21_R17"/>
+            <zone ulx="2600" uly="2368" lrx="4267" lry="2434" xml:id="PAG21_R18"/>
+            <zone ulx="2600" uly="2489" lrx="4267" lry="2574" xml:id="PAG21_R19"/>
+            <zone ulx="2605" uly="2577" lrx="4349" lry="2770" xml:id="PAG21_R20"/>
+            <zone ulx="2605" uly="2771" lrx="4328" lry="2874" xml:id="PAG21_R21"/>
+            <zone ulx="2592" uly="2874" lrx="4328" lry="3011" xml:id="PAG21_R22"/>
+            <zone ulx="2592" uly="3012" lrx="4266" lry="3093" xml:id="PAG21_R23"/>
+            <zone ulx="2660" uly="3095" lrx="4344" lry="3275" xml:id="PAG21_R24"/>
+            <zone ulx="2659" uly="3274" lrx="4326" lry="3394" xml:id="PAG21_R25"/>
+            <zone ulx="2713" uly="3479" lrx="3734" lry="3624" xml:id="PAG21_R26"/>
+            <zone ulx="2829" uly="3624" lrx="4340" lry="3804" xml:id="PAG21_R27"/>
+        </surface>
+        <!-- Retro pagina 21-->
+        <surface xml:id="Full_PAG21_BACK_MAP">
+            <graphic url='ms_fr_03951_01_3_f021v.jpg' width='6048px' height='4032px' />
+            <zone ulx="1995" uly="246" lrx="4233" lry="3912" xml:id="PAG21Intera" /> 
+            <zone ulx="2475" uly="1850" lrx="4043" lry="2443" xml:id="PAG21_retro_M"/> <!-- Macchia -->
+        </surface>
+        <!-- Prolusioni 3 - Pagina 22-->
+        <surface xml:id="Full_PAG22_MAP">
+            <graphic url='ms_fr_03951_01_3_f022.jpg' width='6048px' height='4032px' />
+            <zone ulx="2065" uly="147" lrx="4361" lry="3810" xml:id="Full_PAG22"/>
+            <zone ulx="2181" uly="201" lrx="2490" lry="369" xml:id="PAG22_NUM_CAR"/>
+            <zone ulx="2482" uly="238" lrx="4332" lry="376" xml:id="PAG22_R1"/>
+            <zone ulx="2481" uly="378" lrx="4320" lry="509" xml:id="PAG22_R2"/>
+            <zone ulx="2482" uly="510" lrx="4294" lry="643" xml:id="PAG22_R3"/>
+            <zone ulx="2482" uly="643" lrx="4293" lry="775" xml:id="PAG22_R4"/>
+            <zone ulx="2483" uly="776" lrx="4330" lry="900" xml:id="PAG22_R5"/>
+            <zone ulx="2484" uly="900" lrx="4292" lry="1030" xml:id="PAG22_R6"/>
+            <zone ulx="2484" uly="1162" lrx="4337" lry="1162" xml:id="PAG22_R7"/>
+            <zone ulx="2484" uly="1030" lrx="4334" lry="1138" xml:id="PAG22_R8"/>
+            <zone ulx="2485" uly="1138" lrx="4298" lry="1231" xml:id="PAG22_R9"/>
+            <zone ulx="2486" uly="1231" lrx="4294" lry="1361" xml:id="PAG22_R10"/>
+            <zone ulx="2488" uly="1364" lrx="4010" lry="1498" xml:id="PAG22_R11"/>
+            <zone ulx="2487" uly="1501" lrx="3842" lry="1623" xml:id="PAG22_R12"/>
+            <zone ulx="2489" uly="1626" lrx="4295" lry="1746" xml:id="PAG22_R13"/>
+            <zone ulx="2486" uly="1753" lrx="4293" lry="1873" xml:id="PAG22_R14"/>
+            <zone ulx="2488" uly="1877" lrx="4151" lry="1984" xml:id="PAG22_R15"/>
+            <zone ulx="2294" uly="1993" lrx="3381" lry="2103" xml:id="PAG22_R16"/>
+            <zone ulx="2648" uly="2074" lrx="3066" lry="2232" xml:id="PAG22_R17"/>
+        </surface>
+        <!-- Prolusioni 3 - pagina 22 retro-->
+        <surface xml:id="Full_PAG22_BACK_MAP">
+            <graphic url='ms_fr_03951_01_3_f022v.jpg' width='6048px' height='4032px' />
+            <zone ulx="1994" uly="146" lrx="4344" lry="3759" />
+        </surface>
+    </facsimile>
+
+    <text xml:lang="fr" xml:id="Prol_3_NUM_CAR_21-22-fr" subtype="manuscript">
+        <body>
+            <div type="pagina" n="21">
+                <pb n="21" facs="#Full_PAG21" /> <!-- Inizio prima pagina -->
+                <ab type="paragrafo" n="1" xml:id="PAR_1_PAG_21"> <!-- primo blocco-->
+                    <lb xml:id="Prol_3_NUM_CAR_21_R1" n="1" facs="#PAG21_R1" /> <!-- Inizio prima linea-->
+                    Il n’y a d’autre moyen de fixer
+                    <lb xml:id="Prol_3_NUM_CAR_21_R2" n="2" facs="#PAG21_R2" /> 
+                    ce qu’on veut dire en parlant <del rend="strikethrough"><gap reason="illegible" extent="4" atLeast="3" atMost="4" unit="chars" /><unclear reason="illegible" xml:id="R1_deletion_1">d'un </unclear></del>                   
+                    <lb xml:id="Prol_3_NUM_CAR_21_R3" n="3" facs="#PAG21_R3" /> 
+                    <del rend="strikethrough"><gap reason="illegible" extent="6" atLeast="5" atMost="7" unit="chars" /><unclear reason="illegible" xml:id="R2_deletion_1">langue</unclear></del><certainty cert="high" target="R1_deletion_1" locus="value"/> de telle ou telle <term ref="#langue">langue</term> précise que 
+                    <lb xml:id="Prol_3_NUM_CAR_21_R4" n="4" facs="#PAG21_R4" /> 
+                    de dire <emph rend="underline"><term ref="#LLDR">la langue de <del rend="strikethrough"><gap reason="illegible" extent="6" atLeast="5" atMost="7" unit="chars" /></del>Rome</term></emph><del rend="strikethrough"><gap reason="illegible" extent="2" atLeast="2" atMost="3" unit="chars" /></del>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R5" n="5" facs="#PAG21_R5" /> 
+                    <emph rend="underline"><term ref="#LLDR">en telle année</term></emph><choice><orig>,</orig><reg resp="#Bouq-Engl">;</reg></choice> <term ref="#LLA">la langue d’Annecy</term>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R6" n="6" facs="#PAG21_R6" /> 
+                    <term ref="#LLA">en telle année<choice><orig>;</orig><reg resp="#B_E">.</reg></choice></term>
+                </ab>
+                <ab type="paragrafo" n="2" xml:id="PAR_2_PAG_21"> 
+                    <lb xml:id="Prol_3_NUM_CAR_21_R6_P2" n="6" facs="#PAG21_R6" />
+                    <choice><orig>c.à.d</orig><reg resp="#Bouq-Engl">C'est-à-dire</reg></choice> de prendre <choice><orig>1</orig><reg resp="#Bouq-Engl">une</reg></choice>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R7" n="7" facs="#PAG21_R7" />
+                    seule <del rend="strikethrough"><gap reason="illegible" extent="5" atLeast="4" atMost="6" unit="chars" /><unclear reason="illegible" xml:id="R8_deletion_1">point</unclear></del><certainty cert="low" target="R8_deletion_1" locus="value"/> <term ref="#localite">localité</term> peu étendue et <choice><orig>1</orig><reg resp="#Bouq-Engl">un</reg></choice>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R8" n="8" facs="#PAG21_R8" />
+                    seul <term ref="#point">point</term> <choice><orig>d</orig><reg resp="#Bouq-Engl">dans  </reg></choice> le <term ref="#temps">temps.</term>
+                </ab>
+                <ab type="paragrafo" n="3" xml:id="PAR_3_PAG_21"> 
+                    <lb xml:id="Prol_3_NUM_CAR_21_R9" n="9" facs="#PAG21_R9" />
+                    On demande alors, après ces <choice><abbr>ob<am>.</am></abbr><expan resp="#Bouq-Engl"><term ref="#observations">ob<ex>servations</ex></term></expan></choice>, si
+                    <lb xml:id="Prol_3_NUM_CAR_21_R10" n="10" facs="#PAG21_R10" />
+                    des <term ref="#langue">langues</term> <term ref="#contigues">contiguës</term> de même <term ref="#origine">origine</term>,
+                    <lb xml:id="Prol_3_NUM_CAR_21_R11" n="11" facs="#PAG21_R11" />
+                    comme le <emph rend="underline"><lang>slave</lang></emph> et l’<emph rend="underline"><choice><orig>alle<gap reason="illegible" extent="4" atLeast="1" atMost="4" unit="chars" /></orig><reg resp="#Bouq-Engl"><lang>allemands</lang></reg></choice></emph>, sont reliées
+                    <lb xml:id="Prol_3_NUM_CAR_21_R12" n="12" facs="#PAG21_R12" />
+                    comme l’<choice><abbr>ital<am>.</am></abbr><expan resp="#Bouq-Engl"><lang>ital<ex>ien</ex></lang></expan></choice> <choice><orig>&amp;</orig><reg resp="#Bouq-Engl">et</reg></choice> le <lang>français</lang> par des <choice><abbr>dial<am>.</am></abbr><expan resp="#Bouq-Engl"><term ref="#dialectes_intermediaires">dial<ex>ectes</ex></term></expan></choice>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R13" n="13" facs="#PAG21_R13" />
+                    <term ref="#dialectes_intermediaires">intermédiaires</term>, n’appartenant pas <choice><orig>+</orig><reg resp="#Bouq-Engl">plus</reg></choice> au <choice><orig>1<emph rend="underline">er</emph></orig><reg resp="#Bouq-Engl">premier</reg></choice>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R14" n="14" facs="#PAG21_R14" />
+                    qu’au <choice><abbr>2^d</abbr><expan resp="#B_E"><num type="ordinal" value="2">second</num></expan></choice>second <term ref="#type">type</term>.
+                </ab>
+                <ab type="paragrafo" n="4" xml:id="PAR_4_PAG_21"> 
+                    <lb xml:id="Prol_3_NUM_CAR_21_R14_P2" n="14" facs="#PAG21_R14" />
+                    Non; et cela est à <choice><orig><unclear reason="illegible" cert="low">pe</unclear></orig><reg resp="#Bouq-Engl">peu</reg></choice>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R15" n="15" facs="#PAG21_R14" />
+                    près <term ref="#general">général</term> <choice><orig>d</orig><reg resp="#Bouq-Engl">dans</reg></choice> la <term ref="#famille">famille</term> <choice><abbr>indo-eur<am>.</am></abbr><expan resp="#Bouq-Engl"><lang>indo-eur<ex>opéenne</ex></lang></expan></choice>.
+                </ab>
+                <ab type="paragrafo" n="5" xml:id="PAR_5_PAG_21"> 
+                    <lb xml:id="Prol_3_NUM_CAR_21_R16" n="16" facs="#PAG21_R16" />
+                    Nous ne possédons plus les <term ref="#transitions">transitions</term> ; mais
+                    <lb xml:id="Prol_3_NUM_CAR_21_R17" n="17" facs="#PAG21_R17" />
+                    il faut se <choice><orig>rappelerque</orig><reg resp="#Bouq-Engl">rappeler que</reg></choice> notre <choice><orig>conaissa<gap reason="illegible" extent="3" unit="chars"/></orig><reg resp="#Bouq-Engl"><term ref="#connaissance">connaissance</term></reg></choice>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R18" n="18" facs="#PAG21_R18" />
+                    est <choice><abbr>absol<am>.</am></abbr><expan resp="#Bouq-Engl">absol<ex>umnet</ex></expan></choice> <term ref="#fragmentaire">fragmentaire</term> ; <choice><orig>n^s</orig><reg resp="#Bouq-Engl">nous</reg></choice> ne <choice><orig>conais<gap reason="missing" unit="chars"/></orig><reg resp="#Bouq-Engl"><term ref="#connaissance">connaissons</term></reg></choice>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R19" n="19" facs="#PAG21_R19" />
+                    pas le <term ref="#corps">corps</term> de <term ref="#langue_illyrien">langue</term> <emph rend="underline"><lang>illyrien</lang></emph><choice><orig></orig><reg resp="#Bouq-Engl">,</reg></choice><metamark>----</metamark>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R20" n="20" facs="#PAG21_R20" />
+                    <choice><orig>n^s</orig><reg resp="#Bouq-Engl">nous</reg></choice> ne <choice><orig>po<gap reason="illegible" extent="3" atLeast="3" atMost="7" unit="chars"/><unclear reason="illegible" xml:id="possedons">ponid</unclear></orig><reg resp="#Bouq-Engl">possédons</reg></choice> pas le corps de <choice><orig>lag</orig><reg resp="#Bouq-Engl"><term ref="#langue_phrygien">langue</term></reg></choice> <choice><orig>φrygei<gap reason="missing" unit="chars"/></orig><reg resp="#Bouq-Engl"><lang>phrygien</lang></reg></choice>,
+                    <lb xml:id="Prol_3_NUM_CAR_21_R21" n="21" facs="#PAG21_R21" />
+                    ni le <term ref="#corps">corps</term> de <choice><orig>lag</orig><reg resp="#Bouq-Engl"><term ref="#langue_macedonien">langue</term></reg></choice> <emph rend="underline"><lang>macédonien</lang></emph>, qui <choice><abbr>probab<am>.</am></abbr><expan resp="#Bouq-Engl">probab<ex>lement</ex></expan></choice>
+                    <lb xml:id="Prol_3_NUM_CAR_21_R22" n="22" facs="#PAG21_R22" />
+                    reliait le <lang>grec</lang> au <lang>slave</lang> ;<choice><orig><pc>-</pc></orig><reg resp="#Bouq-Engl"></reg></choice> en outre
+                    <lb xml:id="Prol_3_NUM_CAR_21_R23" n="23" facs="#PAG21_R23" />
+                    il y a eu des mouvements de <term ref="#populations">popu<choice><orig><pc>-</pc></orig><reg resp="#Bouq-Engl"></reg></choice><lb break="no"/><choice><orig><pc>-</pc></orig><reg resp="#Bouq-Engl"></reg></choice>lations</term> qui ont <term ref="#continuellement">continuellement</term> pu venir
+                    <lb xml:id="Prol_3_NUM_CAR_21_R24" n="24" facs="#PAG21_R24" />
+                    battre et recouvrir de leurs vagues
+                    <lb xml:id="Prol_3_NUM_CAR_21_R25" n="25" facs="#PAG21_R25" />
+                    les <term ref="#dialectes_intermediaires">types intermédiaires</term>.
+                    </ab>
+                <ab type="paragrafo" n="6" xml:id="PAR_6_PAG_21">     
+                    <lb xml:id="Prol_3_NUM_CAR_21_R26" n="26" facs="#PAG21_R26" />
+                    <choice><orig>N^s</orig><reg resp="#Bouq-Engl">Nous</reg></choice> avons <choice><orig>tte</orig><reg resp="#Bouq-Engl">toute</reg></choice> raison de croire que
+                </ab>
+            </div>
+            <div type="pagina" n="22">
+                <pb n="22" facs="#Full_PAG22" /> <!-- Inizio seconda pagina --> 
+                <ab type="paragrafo" n="6" xml:id="PAR_6_PAG_22"> <!-- continuazione paragrafo 6-->
+                    <lb xml:id="Prol_3_NUM_CAR_22_R1" n="1" facs="#PAG22_R1" /> <!-- Inizio prima linea-->
+                    la <term ref="#differenciation">différenciation</term> au sein du <choice><orig>g^d</orig><reg resp="#Bouq-Engl">grand</reg></choice> <term ref="#corps">corps</term> <choice><abbr>indo-eur<am>.</am></abbr><expan resp="#Bouq-Engl"><lang>indo-eur<ex>opéenne</ex></lang></expan></choice>
+                    <lb xml:id="Prol_3_NUM_CAR_22_R2" n="2" facs="#PAG22_R2" />
+                    s’est faite <term ref="#general">en général</term> de la même façon que
+                    <lb xml:id="Prol_3_NUM_CAR_22_R3" n="3" facs="#PAG22_R3" />
+                    <del rend="strikethrough"><gap reason="illegible" extent="28" atLeast="17" atMost="28" unit="chars" /><unclear reason="illegible" xml:id="R3_deletion_1" cert="high"><choice><orig>d</orig><reg resp="#Andreoli-Maggio">dans</reg></choice> le <choice><orig>g^d</orig><reg resp="#Andreoli-Maggio">grand</reg></choice> corps <lang><choice><abbr>indo-eur<am>.</am></abbr><expan resp="#Andreoli-Maggio">indo-eur<ex>opéenne</ex></expan></choice></lang></unclear></del> la <term ref="#differenciation">différenciation</term> de la
+                    <lb xml:id="Prol_3_NUM_CAR_22_R4" n="4" facs="#PAG22_R4" />
+                    <term ref="#langue_latine">langue</term> <lang>latine</lang>. À l’heure qu’il est, la <term ref="#continuellement">conti<choice><orig><pc>-</pc></orig><reg resp="#Bouq-Engl"></reg></choice><lb break="no"/><choice><orig><pc>-</pc></orig><reg resp="#Bouq-Engl"></reg></choice>nuité</term> est ininterrompue<pc>...</pc><choice><orig><metamark>-</metamark></orig><reg resp="#Bouq-Engl"></reg></choice> en passant
+                    <lb xml:id="Prol_3_NUM_CAR_22_R5" n="5" facs="#PAG22_R5" />
+                    par <name type="city" ref="#herat"><choice><orig>Hérat</orig><reg resp="#Bouq-Engl">Herat</reg></choice></name>, <name type="city" ref="#merw"><choice><orig><gap reason="overwriting illegible" extent="several characters"/></orig><reg resp="#Bouq-Engl">Merw</reg></choice></name>, <name type="city" ref="#moscou">Moscou</name>. <choice><orig><metamark>-</metamark></orig><reg resp="#Bouq-Engl"></reg></choice>
+                    </ab>
+                    <ab type="paragrafo" n="7" xml:id="PAR_7_PAG_22">
+                    <lb xml:id="Prol_3_NUM_CAR_22_R5_P2" n="5" facs="#PAG22_R5" />
+                    Or, si
+                    <lb xml:id="Prol_3_NUM_CAR_22_R6" n="6" facs="#PAG22_R6" />
+                    <choice><orig>n^s</orig><reg resp="#Bouq-Engl">nous</reg></choice> prenons <choice><orig>ls</orig><reg resp="#Bouq-Engl">les</reg></choice> <choice><abbr>diff<am>.</am></abbr><expan resp="#Bouq-Engl"><term ref="#differenciation">diff<ex>érentes</ex></term></expan></choice> <choice><orig>lgus</orig><reg resp="#Bouq-Engl"><term ref="#langue">langues</term></reg></choice> <choice><abbr>indo-eur<am>.</am></abbr><expan resp="#Bouq-Engl"><lang>indo-eur<ex>opéennes</ex></lang></expan></choice><choice><orig>,</orig><reg resp="#Bouq-Engl"></reg></choice> chacune
+                    <lb xml:id="Prol_3_NUM_CAR_22_R7" n="7" facs="#PAG22_R7" />
+                    <term ref="#represente">représente</term> <choice><orig>exactem</orig><reg resp="#Bouq-Engl">exactement</reg></choice> l’<term ref="#anneau_intermediaire">anneau intermédiaire</term>
+                    <lb xml:id="Prol_3_NUM_CAR_22_R8" n="8" facs="#PAG22_R8" />
+                    entre ses <choice><orig>2</orig><reg resp="#Bouq-Engl">deux</reg></choice> voisine <choice><orig>del</orig><reg resp="#Bouq-Engl">de l</reg></choice>’Est <choice><orig>&amp;</orig><reg resp="#Bouq-Engl">et</reg></choice> <choice><orig>del</orig><reg resp="#Bouq-Engl">de l</reg></choice>’Ouest.
+                </ab>
+                <ab type="paragrafo" n="8" xml:id="PAR_8_PAG_22">
+                    <lb xml:id="Prol_3_NUM_CAR_22_R9" n="9" facs="#PAG22_R9" />
+                    <del rend="strikethrough"><gap reason="illegible" extent="all line" unit="chars" /><unclear reason="illegible" xml:id="R9_deletion_1" cert="low">De <choice><orig>+</orig><reg resp="#Andreoli-Maggio">dans</reg></choice> il y a des <choice><orig><abbr>φénom<am>.</am></abbr><expan resp="#Andreoli-Maggio">φénom<ex>ènes</ex></expan></orig><reg resp="#Andreoli-Maggio">phénomènes</reg></choice> qui ont</unclear></del>
+                    <lb xml:id="Prol_3_NUM_CAR_22_R10" n="10" facs="#PAG22_R10" />
+                    <del rend="strikethrough"><gap reason="illegible" extent="all line" unit="chars" /><unclear reason="illegible" xml:id="R10_deletion_1" cert="low">de même pu'il y a des <choice><orig><abbr>φén<am>.</am></abbr><expan resp="#Andreoli-Maggio">φén<ex>omènes</ex></expan></orig><reg resp="#Andreoli-Maggio">phénomènes</reg></choice>.</unclear></del>
+                    <lb xml:id="Prol_3_NUM_CAR_22_R11" n="11" facs="#PAG22_R11" />
+                    <del rend="strikethrough"><gap reason="illegible" extent="all line" unit="chars" /><unclear reason="illegible" xml:id="R11_deletion_1" cert="low">Il y a des <choice><orig><abbr>φén<am>.</am></abbr><expan resp="#Andreoli-Maggio">φén<ex>omènes</ex></expan></orig><reg resp="#Andreoli-Maggio">phénomènes</reg></choice> <choice><orig>conaiss<gap reason="illegible" extent="4" unit="chars" /></orig><reg resp="#Andreoli-Maggio">connaissance</reg></choice> <choice><orig>&amp;</orig><reg resp="#Andreoli-Maggio">et</reg></choice> <abbr cert="low">dist.</abbr> de <gap reason="overwriting illegible" extent="several characters"/></unclear></del>
+                    <lb xml:id="Prol_3_NUM_CAR_22_R12" n="12" facs="#PAG22_R12" />
+                    <del rend="strikethrough"><gap reason="illegible" extent="several characters" unit="chars" /><unclear reason="illegible" xml:id="R12_deletion_1" cert="low"><choice><orig>lgus</orig><reg resp="#Andreoli-Maggio">langues</reg></choice> <lang><choice><abbr>indo-eur<am>.</am></abbr><expan resp="#Bouq-Engl">indo-eur<ex>opéenne</ex></expan></choice></lang></unclear></del> Et nous pouvons constater
+                    <lb xml:id="Prol_3_NUM_CAR_22_R13" n="13" facs="#PAG22_R13" />
+                    <choice><orig>cert^<emph rend="underline">1</emph></orig><reg resp="#Bouq-Engl">certains</reg></choice> <choice><orig>g^<emph rend="underline">ds</emph></orig><reg resp="#Bouq-Engl">grands</reg></choice> <choice><orig><abbr>φén<am>.</am></abbr><expan resp="#Andreoli-Maggio">φén<ex>omènes</ex></expan></orig><reg resp="#Bouq-Engl"><term ref="#phenomenes">phénomènes</term></reg></choice> <choice><orig>tte</orig><reg resp="#Bouq-Engl">tout</reg></choice> à fait <term ref="#analogues">analogues</term><metamark>---</metamark>
+                </ab>
+                <ab type="paragrafo" n="9" xml:id="PAR_9_PAG_22">
+                    <lb xml:id="Prol_3_NUM_CAR_22_R14" n="14" facs="#PAG22_R14" />
+                    <emph rend="underline"><unclear reason="ink blot" cert="high"><term ref="#continuellement">Continuité</term></unclear></emph><choice><orig><metamark>---</metamark></orig><reg>,</reg></choice> mais <emph rend="underline"><unclear reason="ink blot"><term ref="#divergences">divergences</term></unclear></emph><choice><orig></orig><reg>.</reg></choice>
+                    <lb xml:id="Prol_3_NUM_CAR_22_R15" n="15" facs="#PAG22_R15" />
+                    <emph rend="underline"><choice><abbr>Phonétiq<am>.</am></abbr><expan resp="#Bouq-Engl"><term ref="#phonetique">Phonetiq<ex>ue</ex></term></expan></choice></emph>
+                </ab>
+                <metamark rend="pen testing"/>
+            </div>
+            <!--Traduzione by Emanuele Fadda-->
+            <div type="Prol_3_NUM_CAR_21-TRADUZIONE">
+                <ab n="1" corresp="#PAR_1_PAG_21" xml:lang="it"> 
+                    Non c’è altro mezzo di fissare ciò che si vuol dire parlando di questa o quella lingua precisa che dire <hi rend="italic">la lingua di Roma in quell’anno; la lingua di Annecy in quell’altro.</hi>
+                </ab>
+                <ab n="2" corresp="#PAR_2_PAG_21" xml:lang="it">
+                    Cioè di prendere una sola località poco estesa e un solo punto nel tempo. 
+                </ab>
+                <ab n="3" corresp="#PAR_3_PAG_21" xml:lang="it">
+                    Ci si domanda dunque, in seguito a questeosservazioni, se lingue contigue della stessa origine, come lo slavo e il tedesco, sono legate come l’italiano e il francese da dialetti intermedi, che non appartengono al primo tipo più che al secondo.
+                </ab>
+                <ab n="4" corresp="#PAR_4_PAG_21" xml:lang="it">
+                    No; e tutto ciò è praticamente generale nella famiglia indoeuropea
+                </ab>
+                <ab n="5" corresp="#PAR_5_PAG_21" xml:lang="it">
+                    Noi non possediamo più le transizioni; ma bisogna ricordare che la nostra conoscenza è assolutamente frammentaria: non conosciamo il nucleo centrale dell’<hi rend="italic">illirico</hi>; non possediamo il nucleo centrale del <hi rend="italic">frigio</hi>, né quello del <hi rend="italic">macedone</hi>, che probabilmente collegava il greco allo slavo; inoltre ci sono movimenti di popolazioni che con continuità hanno potuto affacciarsi e ricoprire delle loro onde i tipi intermedi.
+                </ab>
+                <ab n="6" corresp="#PAR_6_PAG_21" xml:lang="it">
+                    Abbiamo ogni ragione di credere che 
+                </ab>
+            </div>
+            <div type="Prol_3_NUM_CAR_22-TRADUZIONE">
+                <ab n="6" corresp="#PAR_6_PAG_22" xml:lang="it"> 
+                    la differenziazione in seno al grande corpo indoeuropeo sì è svolta in generale nello stesso modo della differenziazione della lingua latina. A tutt’oggi, la continuità è ininterrotta… passando per Herat, Merw, Mosca.
+                </ab>
+                <ab n="7" corresp="#PAR_7_PAG_22" xml:lang="it"> 
+                Ora, se prendiamo le differenti lingue indoeuropee, ognuna rappresenta esattamente l’anello intermedio tra le sue due vicine dell’Est e dell’Ovest.
+                </ab>
+                <ab n="8" corresp="#PAR_8_PAG_22" xml:lang="it"> 
+                E possiamo constatare certi grandi fenomeni assolutamente analoghi.
+                </ab>
+                <ab n="9" corresp="#PAR_9_PAG_22" xml:lang="it"> 
+                <hi rend="italic">Continuità</hi>, ma <hi rend="italic">divergenze</hi>.<hi rend="italic">Fonetica</hi>.
+                </ab>
+            </div>
+        </body>
+        <back>
+            <!-- Appendice contentente elementi vari -->
+            <div type="appendice">
+                <!-- Terminologia -->
+                <list type="glossario">
+                    <!--Inizio effettivo-->
+                    <label>
+                        <term xml:lang="fr" xml:id="langue">Langue</term>
+                        <term xml:lang="it" ref="#langue">Lingua</term>
+                    </label>
+                    <item>
+                        <gloss target="#langue" source="https://it.wikipedia.org/wiki/Lingua_(linguistica)">
+                            in linguistica, è il sistema attraverso il quale gli appartenenti a una comunità si esprimono e comunicano tra loro attraverso l'uso di un determinato linguaggio ovvero 
+                            un insieme di segni scritti (simboli) e/o parlati (suoni).
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="LLDR" xml:lang="fr">La langue de Rome en telle année</term>
+                        <term ref="#LLDR" xml:lang="it">La lingua di Roma in quell'anno</term>
+                    </label>
+                    <item>
+                        <gloss target="#LLDR" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_italiana">
+                            L'italiano è una lingua romanza parlata principalmente in Italia.        
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="LLA" xml:lang="fr">La langue d'Annecy en telle année</term>
+                        <term ref="#LLA" xml:lang="it">La lingua di Annecy in quell'anno</term>
+                    </label>
+                    <item>
+                        <gloss target="#LLA" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_francoprovenzale">
+                            Il francoprovenzale, oppure franco-provenzale o arpitano (nome autoctono: francoprovençâl, arpitan, arpetan, patois), è una lingua romanza parlata in Francia (Forez, media valle del Rodano, Giura e Savoia), nella maggior parte della Svizzera romanda e in Italia (Valle d'Aosta, alcune valli piemontesi e in due comuni della Valmaggiore nella Puglia arpitana: Faeto e Celle di San Vito).      
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="localite" xml:lang="fr">localité</term>
+                        <term ref="#localite" xml:lang="it">località</term>
+                    </label>
+                    <item>
+                        <gloss target="#localite" xml:lang="it" source="https://www.treccani.it/vocabolario/localita/">
+                            località s. f. [dal lat. tardo localĭtas -atis, solo in senso astratto; l’uso concr. è modellato sul fr. localité]. – 1. raro e ant. L’essere locale, cioè proprio di un posto. 2. Luogo geografico, soprattutto riguardo alla posizione, alle caratteristiche locali o in rapporto con altri luoghi: una l. marittima, costiera, montana; l. turistiche, l. di villeggiatura; i costumi differiscono da l. a località. Spesso adoperato con sign. generico, con riferimento a centri abitati o zone che non sia possibile indicare con termini più precisi (come città, paese, villaggio, ecc.), o, al plur., con riferimento a luoghi di varia estensione e importanza: l’aereo si abbatté in una l. delle Alpi occidentali; l’epidemia si sviluppò contemporaneamente in varie l. della regione.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="point" xml:lang="fr">point</term>
+                        <term ref="#point" xml:lang="it">punto</term>
+                    </label>
+                    <item>
+                        <gloss target="#point" xml:lang="it" source="https://it.wiktionary.org/wiki/punto">
+                            (senso figurato) momento della vita.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="temps" xml:lang="fr">temps</term>
+                        <term ref="#temps" xml:lang="it">tempo</term>
+                    </label>
+                    <item>
+                        <gloss target="#temps" xml:lang="it" source="https://it.wikipedia.org/wiki/Tempo">
+                            Il tempo è la percezione e rappresentazione della modalità di successione degli eventi e del rapporto fra essi (per cui avvengono prima, dopo o durante altri eventi). Da un punto di vista scientifico è una grandezza fisica fondamentale.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="observations" xml:lang="fr">observations</term>
+                        <term ref="#observations" xml:lang="it">osservazioni</term>
+                    </label>
+                    <item>
+                        <gloss target="#observations" xml:lang="it" source="https://www.treccani.it/vocabolario/osservazione/">
+                            osservazióne s. f. [dal lat. observatio -onis]. – 1. L’atto di osservare, sia per notare semplicemente (con o senza determinati fini) ciò che si può percepire con l’occhio, talora con l’aiuto di strumenti ottici, sia applicando la mente per formulare considerazioni su ciò che si vede, sia infine sottoponendo qualche cosa ad esame, a riflessione, a indagine di varia natura: questo è un ottimo luogo d’o.; un posto di vedetta che consente l’o. dall’alto; alla sua o. non sfugge nulla; strumenti d’o.; l’o. degli astri; o. a occhio nudo, o compiuta col microscopio, col telescopio. Con prevalente riferimento all’attività della mente, campo, materia d’o.; argomento degno di o.; spirito di o., la capacità di cogliere e ritenere non solo gli aspetti esteriori delle cose ma anche il carattere delle persone, la realtà di una situazione e, in genere, quanto nelle cose, nelle parole, in un’opera, è degno di esser notato e di diventare materia di considerazione.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="contigues" xml:lang="fr">contiguës</term>
+                        <term ref="#contigues" xml:lang="it">contigue</term>
+                    </label>
+                    <item>
+                        <gloss target="#contigues" xml:lang="it" source="https://www.treccani.it/vocabolario/contiguo/">
+                           contìguo agg. [dal lat. contiguus, dal tema di contingĕre «toccare», comp. di con- e tangĕre «toccare»]. – 1. Che è posto vicino ad altra cosa, in modo da avere con essa un termine (lato, ecc.) comune: due case, due orti c.; nella stanza contigua.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="origine" xml:lang="fr">origine</term>
+                        <term ref="#origine" xml:lang="it">origine</term>
+                    </label>
+                    <item>
+                        <gloss target="#origine" xml:lang="it" source="https://www.treccani.it/vocabolario/origine/">
+                           In genere, il primo principio, la prima apparizione o manifestazione di qualche cosa, e il modo con cui essa si è formata.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="dialectes_intermediaires" xml:lang="fr">dialectes intermédiaires</term>
+                        <term ref="#dialectes_intermediaires" xml:lang="it">dialetti intermedi</term>
+                    </label>
+                    <item>
+                        <gloss target="#dialectes_intermediaires" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_francoprovenzale">
+                            Il francoprovenzale, oppure franco-provenzale o arpitano (nome autoctono: francoprovençâl, arpitan, arpetan, patois), è una lingua romanza parlata in Francia (Forez, media valle del Rodano, Giura e Savoia), nella maggior parte della Svizzera romanda e in Italia (Valle d'Aosta, alcune valli piemontesi e in due comuni della Valmaggiore nella Puglia arpitana: Faeto e Celle di San Vito). Assieme al francese e all'occitano, appartiene alle lingue gallo-retiche, sottogruppo delle lingue galloromanze. L'arpitano (o francoprovenzale) fa parte delle 12 lingue minoritarie storiche riconosciute e tutelate dalla legge italiana n. 482 del 1999.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="type" xml:lang="fr">type</term>
+                        <term ref="#type" xml:lang="it">tipo</term>
+                    </label>
+                    <item>
+                        <gloss target="#type" xml:lang="it" source="https://www.treccani.it/vocabolario/tipo/">
+                            Modello, esemplare; in partic., impianto, apparecchio, ecc., che si prende come campione, come esempio nella produzione di altri, i quali devono ripeterne le caratteristiche essenziali
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="general" xml:lang="fr">général</term>
+                        <term ref="#general" xml:lang="it">generale</term>
+                    </label>
+                    <item>
+                        <gloss target="#general" xml:lang="it" source="https://it.wiktionary.org/wiki/generale">
+                            Che si riferisce a qualcuno o qualcosa costituenti un insieme.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="famille" xml:lang="fr">famille</term>
+                        <term ref="#famille" xml:lang="it">famiglia</term>
+                    </label>
+                    <item>
+                        <gloss target="#famille" xml:lang="it" source="https://www.treccani.it/vocabolario/famiglia/">
+                            Gruppo o comunità di persone che hanno tra loro vincoli o rapporti di affinità, anche ideale, o che sono associate da interessi o finalità comuni.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="transitions" xml:lang="fr">transitions</term>
+                        <term ref="#transitions" xml:lang="it">transizioni</term>
+                    </label>
+                    <item>
+                        <gloss target="#transitions" xml:lang="it" source="https://www.treccani.it/vocabolario/transizione/">
+                            Passaggio da un modo di essere o di vita a un altro, da una condizione o situazione a una nuova e diversa.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="connaissance" xml:lang="fr">connaissance</term>
+                        <term ref="#connaissance" xml:lang="it">conoscenza</term>
+                    </label>
+                    <item>
+                        <gloss target="#connaissance" xml:lang="it" source="https://www.treccani.it/vocabolario/conoscenza/">
+                            L’atto del conoscere una persona, dell’apprendere una cosa.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="differenciation" xml:lang="fr">différenciation</term>
+                        <term ref="#differenciation" xml:lang="it">differenziazione</term>
+                    </label>
+                    <item>
+                        <gloss target="#differenciation" xml:lang="it" source="https://www.treccani.it/vocabolario/differenziazione">
+                            L’atto, il fatto di differenziare, cioè di rendere differente o di trattare in modo differente; il processo per cui si diviene differente, si acquistano cioè caratteri distintivi.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="represente" xml:lang="fr">représente</term>
+                        <term ref="#represente" xml:lang="it">rappresenta</term>
+                    </label>
+                    <item>
+                        <gloss target="#represente" xml:lang="it" source="https://www.treccani.it/vocabolario/rappresentare/">
+                            Presentare, mostrare, e al rifl. presentarsi, mostrarsi.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="fragmentaire" xml:lang="fr">fragmentaire</term>
+                        <term ref="#fragmentaire" xml:lang="it">frammentaria</term>
+                    </label>
+                    <item>
+                        <gloss target="#fragmentaire" xml:lang="it" source="https://www.treccani.it/vocabolario/frammentario/">
+                            Diviso in frammenti, costituito di frammenti: un dipinto f.; con riferimento a opere letterarie, non completo, sia per cause esterne sia per deliberato proposito dell’autore.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="corps" xml:lang="fr">corps</term>
+                        <term ref="#corps" xml:lang="it">nucleo</term>
+                    </label>
+                    <item>
+                        <gloss target="#corps" xml:lang="it" source="https://www.treccani.it/vocabolario/nucleo/">
+                            Genericam., la parte centrale di qualche cosa, in quanto appaia più compatta, e spesso anche differenziata strutturalmente, rispetto a ciò che la circonda, o in quanto si consideri come primo elemento di formazione intorno a cui altri elementi si siano raccolti e organizzati.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="langue_illyrien" xml:lang="fr">langue illyrien</term>
+                        <term ref="#langue_illyrien" xml:lang="it">illirico</term>
+                    </label>
+                    <item>
+                        <gloss target="#langue_illyrien" xml:lang="it" source="https://it.wikipedia.org/wiki/Illiria">
+                            L'Illiria o Illirico (per i romani Illyricum) era la regione corrispondente alla parte occidentale della penisola balcanica, verso la costa sud-orientale del Mare Adriatico, abitata dagli Illiri, antica popolazione di lingua indoeuropea.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="langue_phrygien" xml:lang="fr">langue phrygien</term>
+                        <term ref="#langue_phrygien" xml:lang="it">frigio</term>
+                    </label>
+                    <item>
+                        <gloss target="#langue_phrygien" xml:lang="it" source="https://www.treccani.it/vocabolario/frigio/">
+                            Della Frigia, regione storica dell’Asia Minore (e attualmente parte della Turchia asiatica), regno indipendente fino al sec. 7° a. C., conquistata da Alessandro Magno nel 333 a. C., e divenuta poi provincia romana.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="langue_macedonien" xml:lang="fr">langue macédonien</term>
+                        <term ref="#langue_macedonien" xml:lang="it">macedone</term>
+                    </label>
+                    <item>
+                        <gloss target="#langue_macedonien" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_macedone">
+                            La lingua macedone è una lingua slava meridionale parlata in Macedonia del Nord, nonché nella diaspora macedone, in particolare in Canada, Australia, Stati Uniti ecc.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="populations" xml:lang="fr">populations</term>
+                        <term ref="#populations" xml:lang="it">popolazioni</term>
+                    </label>
+                    <item>
+                        <gloss target="#populations" xml:lang="it" source="https://it.wikipedia.org/wiki/Popolazione">
+                            Una popolazione è l'insieme delle persone che vivono in uno stesso territorio e differisce dal popolo che, invece, indica una comunità con lingua, tradizioni e cultura in comune. Le caratteristiche numeriche dei sottoinsiemi, possono contribuire alla descrizione di una popolazione. Le variazioni di popolazione attraverso il tempo sono oggetto di studio della demografia. 
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="continuellement" xml:lang="fr">continuellement</term>
+                        <term ref="#continuellement" xml:lang="it">continuità</term>
+                    </label>
+                    <item>
+                        <gloss target="#continuellement" xml:lang="it" source="https://www.treccani.it/vocabolario/continuita/">
+                            Qualità d’esser continuo, estensione non interrotta nel tempo, o anche nello spazio.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="langue_latine" xml:lang="fr">langue latine</term>
+                        <term ref="#langue_latine" xml:lang="it">lingua latina</term>
+                    </label>
+                    <item>
+                        <gloss target="#langue_latine" xml:lang="it" source="https://it.wikipedia.org/wiki/Lingua_latina">
+                            Il latino o lingua latina è una lingua indoeuropea appartenente al gruppo delle lingue latino-falische. Veniva parlata nel Lazio (Lătĭum in latino) almeno dagli inizi del I millennio a.C.. Oggi rimane la lingua ufficiale di un solo stato al mondo, la Città del Vaticano.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="représente" xml:lang="fr">représente</term>
+                        <term ref="#représente" xml:lang="it">rappresenta</term>
+                    </label>
+                    <item>
+                        <gloss target="#représente" xml:lang="it" source="https://www.treccani.it/vocabolario/rappresentare/">
+                            Mostrare alla vista una scena, un aspetto della realtà riproducendola mediante figure o segni sensibili.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="anneau_intermediaire" xml:lang="fr">anneau intermédiaire</term>
+                        <term ref="#anneau_intermediaire" xml:lang="it">anello intermedio</term>
+                    </label>
+                    <item>
+                        <gloss target="#anneau_intermediaire" xml:lang="it" source="https://www.treccani.it/vocabolario/compromesso2/">
+                            Più genericam., accordo, impegno reciproco assunto da più persone di procedere a un’azione d’interesse comune.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="phenomenes" xml:lang="fr">phénomènes</term>
+                        <term ref="#phenomenes" xml:lang="it">fenomeni</term>
+                    </label>
+                    <item>
+                        <gloss target="#phenomenes" xml:lang="it" source="https://www.treccani.it/vocabolario/fenomeno/">
+                            Nel linguaggio scient., il termine è genericam. usato come sinon. di evento; più precisamente, sono fenomeni i fatti, gli eventi provocati o spontanei, ma comunque suscettibili di osservazione e di studio.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="analogues" xml:lang="fr"> analogues</term>
+                        <term ref="#analogues" xml:lang="it">analoghi</term>
+                    </label>
+                    <item>
+                        <gloss target="#analogues" xml:lang="it" source="https://www.treccani.it/vocabolario/analogo/">
+                            Che ha analogia, che ha somiglianze o elementi in comune con un’altra cosa.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="divergences" xml:lang="fr">divergences</term>
+                        <term ref="#divergences" xml:lang="it">divergenze</term>
+                    </label>
+                    <item>
+                        <gloss target="#divergences" xml:lang="it" source="https://www.treccani.it/vocabolario/divergenza/">
+                            fig. Disparità, differenza, soprattutto nel modo di pensare e di giudicare.
+                        </gloss>
+                    </item>
+                    <label>
+                        <term xml:id="phonetique" xml:lang="fr">Phonétique</term>
+                        <term ref="#phonetique" xml:lang="it">fonetica</term>
+                    </label>
+                    <item>
+                        <gloss target="#phonetique" xml:lang="it" source="">
+                            Nella linguistica tradizionale, ramo della scienza linguistica che studia i fonemi, o suoni articolati dall’apparato di fonazione umano.
+                        </gloss>
+                    </item>
+                </list>             
+                <listPerson>
+                    <person xml:id="FDS">
+                        <persName>
+                            <ref target="https://it.wikipedia.org/wiki/Ferdinand_de_Saussure" />
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="26-11-1857">26 novembre 1857</date>
+                            <placeName ref="#ginevra">
+                                <settlement>Ginevra</settlement>
+                                <country>Svizzera</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="22-02-1913">22 febbraio 1913</date>
+                            <placeName>
+                                <settlement>Vufflens-le-Château</settlement>
+                                <country>Svizzera</country>
+                            </placeName>
+                        </death>
+                    </person>
+                </listPerson>
+                
+                <!-- Riferimenti bibiografici -->
+                <listBibl>                    
+                    <bibl xml:id="ACLib" xml:lang="fr">
+                        <author ref="#AC">
+                            <forename>Alessandro</forename>
+                            <surname>Chidichimo</surname>
+                        </author>
+                        <title>Cahiers <persName ref="#FDS">Ferdinand de Saussure</persName></title>
+                        <pubPlace ref="#ginevra"><placeName ref="#ginevra">Ginevra</placeName></pubPlace>
+                        <publisher>Librairie Droz</publisher>
+                        <date when="2009">2009</date>
+                    </bibl>
+                    
+                    <bibl xml:id="EFLib">
+                        <author xml:id="EF">
+                            <forename>Emanuele</forename>
+                            <surname>Fadda</surname>
+                        </author>
+                        <title type="main" level="m">Lingua e mente sociale</title>
+                        <title type="sub">Per una teoria delle istituzioni linguistiche a partire da Saussure e Mead</title>
+                        <pubPlace><placeName ref="#acireale">Acireale</placeName></pubPlace>
+                        <publisher>Bonanno Editore</publisher>
+                        <date when="2006">2006</date>
+                        <biblScope unit="volume">1</biblScope>
+                    </bibl>
+                    
+                    <bibl xml:id="TDMLib">
+                        <author ref="#FDS">
+                            <forename>Ferdinand</forename>
+                            <surname>De Saussure</surname>
+                        </author>
+                        <author xml:id="TDM">
+                            <forename>Tullio</forename>
+                            <surname>De Mauro</surname>
+                        </author>
+                        <title>Corso di linguistica generale, introduzione, traduzione e commento di Tullio De Mauro</title>
+                        <pubPlace><placeName ref="#roma">Roma</placeName></pubPlace>
+                        <date when="1976">1976</date>
+                        <publisher>Editori Laterza</publisher>
+                    </bibl>
+                </listBibl>
+                
+                <listPlace>
+                    <place xml:id="ginevra">
+                        <placeName ref="https://it.wikipedia.org/wiki/Ginevra">Ginevra</placeName>
+                        <settlement>Ginevra</settlement>
+                        <country>Svizzera</country>
+                    </place>
+                    <place xml:id="acireale">
+                        <placeName ref="https://it.wikipedia.org/wiki/Acireale">Acireale</placeName>
+                        <settlement type="region">Sicilia</settlement>
+                        <country>Italia</country>
+                    </place>
+                    <place xml:id="roma">
+                        <placeName ref="https://it.wikipedia.org/wiki/Roma">Roma</placeName>
+                        <settlement type="region">Lazio</settlement>
+                        <country>Italia</country>
+                    </place>
+                </listPlace>
+            </div>
+        </back>
+    </text>
+</TEI>
+
